@@ -1,0 +1,425 @@
+[
+    [
+        {
+            "num": 4,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 1,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": 5,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        }
+    ],
+    [
+        {
+            "num": null,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 5,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": 3,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        }
+    ],
+    [
+        {
+            "num": 2,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": 3,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": 6,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 8,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 1,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 9
+        }
+    ],
+    [
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": 9,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": 2,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": 5,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 1,
+            "hints": [],
+            "ans": 1
+        }
+    ],
+    [
+        {
+            "num": null,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": 3,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 9,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": 4,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 2
+        }
+    ],
+    [
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 2,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 1,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        }
+    ],
+    [
+        {
+            "num": 6,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": 5,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": 8,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 9,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        }
+    ],
+    [
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 7
+        },
+        {
+            "num": 2,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": 6,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": 8,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 5
+        }
+    ],
+    [
+        {
+            "num": 1,
+            "hints": [],
+            "ans": 1
+        },
+        {
+            "num": 9,
+            "hints": [],
+            "ans": 9
+        },
+        {
+            "num": 2,
+            "hints": [],
+            "ans": 2
+        },
+        {
+            "num": 5,
+            "hints": [],
+            "ans": 5
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 8
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 3
+        },
+        {
+            "num": null,
+            "hints": [],
+            "ans": 6
+        },
+        {
+            "num": 4,
+            "hints": [],
+            "ans": 4
+        },
+        {
+            "num": 7,
+            "hints": [],
+            "ans": 7
+        }
+    ]
+]
