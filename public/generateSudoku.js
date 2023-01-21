@@ -15,7 +15,8 @@ const newSudo = []
 			newSudo[i].push({
 				num: num,
 				hints: [],
-				ans: ans
+				ans: ans,
+				immut: (num) ? true : undefined
 			})
 		}
 	}

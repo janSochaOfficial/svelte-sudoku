@@ -3,12 +3,14 @@
         {
             "num": 4,
             "hints": [],
-            "ans": 4
+            "ans": 4,
+            "immut": true
         },
         {
             "num": 1,
             "hints": [],
-            "ans": 1
+            "ans": 1,
+            "immut": true
         },
         {
             "num": null,
@@ -23,12 +25,14 @@
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": 5,
             "hints": [],
-            "ans": 5
+            "ans": 5,
+            "immut": true
         },
         {
             "num": null,
@@ -60,12 +64,14 @@
         {
             "num": 5,
             "hints": [],
-            "ans": 5
+            "ans": 5,
+            "immut": true
         },
         {
             "num": 3,
             "hints": [],
-            "ans": 3
+            "ans": 3,
+            "immut": true
         },
         {
             "num": null,
@@ -80,7 +86,8 @@
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": null,
@@ -97,7 +104,8 @@
         {
             "num": 2,
             "hints": [],
-            "ans": 2
+            "ans": 2,
+            "immut": true
         },
         {
             "num": null,
@@ -107,12 +115,14 @@
         {
             "num": 3,
             "hints": [],
-            "ans": 3
+            "ans": 3,
+            "immut": true
         },
         {
             "num": 6,
             "hints": [],
-            "ans": 6
+            "ans": 6,
+            "immut": true
         },
         {
             "num": null,
@@ -122,12 +132,14 @@
         {
             "num": 8,
             "hints": [],
-            "ans": 8
+            "ans": 8,
+            "immut": true
         },
         {
             "num": 1,
             "hints": [],
-            "ans": 1
+            "ans": 1,
+            "immut": true
         },
         {
             "num": null,
@@ -144,7 +156,8 @@
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": null,
@@ -154,7 +167,8 @@
         {
             "num": 9,
             "hints": [],
-            "ans": 9
+            "ans": 9,
+            "immut": true
         },
         {
             "num": null,
@@ -169,12 +183,14 @@
         {
             "num": 2,
             "hints": [],
-            "ans": 2
+            "ans": 2,
+            "immut": true
         },
         {
             "num": 5,
             "hints": [],
-            "ans": 5
+            "ans": 5,
+            "immut": true
         },
         {
             "num": null,
@@ -184,7 +200,8 @@
         {
             "num": 1,
             "hints": [],
-            "ans": 1
+            "ans": 1,
+            "immut": true
         }
     ],
     [
@@ -196,7 +213,8 @@
         {
             "num": 3,
             "hints": [],
-            "ans": 3
+            "ans": 3,
+            "immut": true
         },
         {
             "num": null,
@@ -211,7 +229,8 @@
         {
             "num": 9,
             "hints": [],
-            "ans": 9
+            "ans": 9,
+            "immut": true
         },
         {
             "num": null,
@@ -221,12 +240,14 @@
         {
             "num": 4,
             "hints": [],
-            "ans": 4
+            "ans": 4,
+            "immut": true
         },
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": null,
@@ -243,7 +264,8 @@
         {
             "num": 2,
             "hints": [],
-            "ans": 2
+            "ans": 2,
+            "immut": true
         },
         {
             "num": null,
@@ -253,7 +275,8 @@
         {
             "num": 1,
             "hints": [],
-            "ans": 1
+            "ans": 1,
+            "immut": true
         },
         {
             "num": null,
@@ -263,7 +286,8 @@
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": null,
@@ -285,22 +309,26 @@
         {
             "num": 6,
             "hints": [],
-            "ans": 6
+            "ans": 6,
+            "immut": true
         },
         {
             "num": 5,
             "hints": [],
-            "ans": 5
+            "ans": 5,
+            "immut": true
         },
         {
             "num": 8,
             "hints": [],
-            "ans": 8
+            "ans": 8,
+            "immut": true
         },
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         },
         {
             "num": null,
@@ -315,7 +343,8 @@
         {
             "num": 9,
             "hints": [],
-            "ans": 9
+            "ans": 9,
+            "immut": true
         },
         {
             "num": null,
@@ -347,12 +376,14 @@
         {
             "num": 2,
             "hints": [],
-            "ans": 2
+            "ans": 2,
+            "immut": true
         },
         {
             "num": 6,
             "hints": [],
-            "ans": 6
+            "ans": 6,
+            "immut": true
         },
         {
             "num": null,
@@ -362,7 +393,8 @@
         {
             "num": 8,
             "hints": [],
-            "ans": 8
+            "ans": 8,
+            "immut": true
         },
         {
             "num": null,
@@ -379,22 +411,26 @@
         {
             "num": 1,
             "hints": [],
-            "ans": 1
+            "ans": 1,
+            "immut": true
         },
         {
             "num": 9,
             "hints": [],
-            "ans": 9
+            "ans": 9,
+            "immut": true
         },
         {
             "num": 2,
             "hints": [],
-            "ans": 2
+            "ans": 2,
+            "immut": true
         },
         {
             "num": 5,
             "hints": [],
-            "ans": 5
+            "ans": 5,
+            "immut": true
         },
         {
             "num": null,
@@ -414,12 +450,14 @@
         {
             "num": 4,
             "hints": [],
-            "ans": 4
+            "ans": 4,
+            "immut": true
         },
         {
             "num": 7,
             "hints": [],
-            "ans": 7
+            "ans": 7,
+            "immut": true
         }
     ]
 ]

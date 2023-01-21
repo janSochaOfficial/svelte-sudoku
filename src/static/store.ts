@@ -3,7 +3,8 @@ import { writable } from "svelte/store";
 export type cell = {
     num: number,
     hints: number[],
-    ans: number
+    ans: number,
+    immut?: boolean 
 }
 
 export const sudoku = writable<cell[][]>([])
