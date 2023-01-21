@@ -7,6 +7,7 @@ export type cell = {
 }
 
 export const sudoku = writable<cell[][]>([])
+export const screen = writable("start")
 
 export function validateSudoku(sudoku: cell[][]){
     for (let i = 0; i < 9; i++){
@@ -33,3 +34,4 @@ export function validateSudoku(sudoku: cell[][]){
     }
     return true
 }
+

@@ -1,17 +1,19 @@
 <script lang="ts">
-    import { sudoku, validateSudoku } from "./static/store";
-	import type { cell } from "./static/store";
+    import { get } from "svelte/store";
+	import { screen } from "./static/store";
 
+    import ImportSudoku from "./components/importSudoku.svelte";
+	import Field from "./components/field.svelte";
 	
-	let files: FileList
 
-	
-	
-	async function importSudoku(){
-		
-	}
-
+	let screenVal: string;
+	screen.subscribe(e =>{
+		screenVal = e
+	})
 </script>
 
 
-<input type="file" bind:files />
+<ImportSudoku />
+{#if screenVal == "main"}
+	<Field />
+{/if}
