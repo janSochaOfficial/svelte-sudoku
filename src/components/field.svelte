@@ -1,9 +1,10 @@
 <script lang="ts">
     import { get } from "svelte/store";
     import { sudoku, type cell } from "../static/store";
-    import { setNumber, acctivePosition } from "../static/board";
+    import { setNumber, acctivePosition, hint, erase } from "../static/board";
 
     import type { position } from "../static/board";
+    import HintsTable from "./hintsTable.svelte";
     let acctivePos: position
     acctivePosition.subscribe(data => acctivePos = data)
 
@@ -20,12 +21,17 @@
         if (sudokuVar[i][j].immut) return
         acctivePos = {row: i, column: j}
         acctivePosition.set(acctivePos)
-
+        if(get(erase))
+        sudoku.update(data => {
+            data[i][j].num = null
+            data[i][j].hints = []
+            return data
+        })
 
     }
 
     function isGood(i: number, j: number){
-        if (sudokuVar[i][j].immut) return;
+        if (sudokuVar[i][j].immut) return "";
         if (sudokuVar[i][j].ans == sudokuVar[i][j].num) return "good"
         return "bad"
     }
@@ -46,6 +52,10 @@
                         on:click={() => setAcctive(i, j)}
                     >
                         {cell.num ? cell.num : " "}
+                        {#if cell.hints.length}
+                            <HintsTable hints={cell.hints}/>
+                        {/if}
+                        
                     </td>
                 {/each}
             </tr>
@@ -57,7 +67,8 @@
         width: 60px;
         height: 60px;
         border: 1px solid gray;
-        font-size: 25px
+        font-size: 25px;
+        padding: 0;
     }
 
     td.good{
