@@ -1,4 +1,4 @@
-import { writable } from "svelte/store";
+import { get, writable } from "svelte/store";
 
 export type cell = {
     num: number,
@@ -35,4 +35,24 @@ export function validateSudoku(sudoku: cell[][]){
     }
     return true
 }
+
+export function getInfo(){
+    const infoList = {}
+    for (let i = 1; i <= 9; i++)
+        infoList[i] = 9
+
+    get(sudoku).forEach((row) =>{
+        row.forEach((cell) => {
+            if (cell.num)
+                infoList[cell.num] -= 1
+        })
+    })
+
+    const ans = []
+    for (const num in infoList){
+        ans.push([num, infoList[num]])
+    }
+    return ans
+}
+
 

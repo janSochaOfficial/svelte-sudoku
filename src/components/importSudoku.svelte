@@ -8,8 +8,6 @@
 		const file = files[0]
 
 		const newSudo: cell[][] = await file.text().then(e => JSON.parse(e))
-		console.log(newSudo)
-		console.log(validateSudoku(newSudo))
 		if(validateSudoku(newSudo)){
 			sudoku.set(newSudo)
 		}
