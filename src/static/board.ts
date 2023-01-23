@@ -46,3 +46,78 @@ export function solveSudoku(){
     )
 }
 
+export class Movement{
+
+    static next(){
+        const actPos = get(acctivePosition)
+        actPos.column += 1
+        if (actPos.column > 8) {
+            actPos.column = 0
+            actPos.row += 1
+        }
+        if (actPos.row > 8){
+            actPos.column = 0
+            actPos.row = 0
+        }
+        acctivePosition.set(actPos)
+        if (get(sudoku)[actPos.row][actPos.column].immut){
+            this.next()
+            return
+        }
+    }
+    
+    static prev(){
+        const actPos = get(acctivePosition)
+        actPos.column -= 1
+        if (actPos.column < 0) {
+            actPos.column = 8
+            actPos.row -= 1
+        }
+        if (actPos.row < 0){
+            actPos.column = 8
+            actPos.row = 8
+        }
+        acctivePosition.set(actPos)
+        if (get(sudoku)[actPos.row][actPos.column].immut){
+            this.prev()
+            return
+        }
+    }
+    
+    static above(){
+        const actPos = get(acctivePosition)
+        actPos.row -= 1
+        if (actPos.row < 0) {
+            actPos.row = 8 
+        }
+        acctivePosition.set(actPos)
+        if (get(sudoku)[actPos.row][actPos.column].immut){
+            this.next()
+            return
+        }
+    }
+    
+    static bellow(){
+        const actPos = get(acctivePosition)
+        actPos.row += 1
+        if (actPos.row < 0) {
+            actPos.row = 0
+        }
+        acctivePosition.set(actPos)
+        if (get(sudoku)[actPos.row][actPos.column].immut){
+            this.next()
+            return
+        }
+    }
+
+    static clear(){
+        const actPos = get(acctivePosition)
+        sudoku.update(data => {
+            data[actPos.row][actPos.column].num = null
+            data[actPos.row][actPos.column].hints = []
+            return data
+        })
+        this.prev()
+    }
+} 
+

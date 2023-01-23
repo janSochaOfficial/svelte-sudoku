@@ -1,7 +1,7 @@
 <script lang="ts">
     import { get } from "svelte/store";
 	import { screen } from "./static/store";
-	import { setNumber, acctivePosition, type position } from "./static/board";
+	import { setNumber, acctivePosition, type position, Movement } from "./static/board";
 
     import ImportSudoku from "./components/importSudoku.svelte";
 	import Field from "./components/field.svelte";
@@ -14,10 +14,32 @@
 	})
 	let acctivePos: position;
 	acctivePosition.subscribe(data => acctivePos = data)
-	document.getRootNode().addEventListener("keypress", (e: KeyboardEvent) => {
+	document.getRootNode().addEventListener("keydown", (e: KeyboardEvent) => {
 		if (Number(e.key)){
 			setNumber(acctivePos, Number(e.key))
-
+			return
+		}
+		const key = e.key
+		switch (key){
+			case "ArrowUp":
+				Movement.above()
+				break;
+			case "ArrowRight":
+				Movement.next()
+				break;
+			case "ArrowLeft":
+				Movement.prev()
+				break;
+			case "ArrowDown":
+				Movement.bellow()
+				break;
+			case "Backspace":
+				Movement.clear()
+				break;
+			case "Delete":
+				Movement.clear()
+				Movement.next()
+				break;
 		}
 	})
 </script>
