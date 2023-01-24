@@ -29,6 +29,7 @@ export function setNumber(pos: position, num: number){
             data[pos.row][pos.column].hints = []
             return data
         })
+        Movement.next()
 }
 
 export function solveSudoku(){

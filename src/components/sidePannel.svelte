@@ -1,6 +1,7 @@
 <script lang="ts">
     import { sudoku, getInfo, type cell } from "../static/store"
     import { solveSudoku, acctivePosition, type position, setNumber, erase, hint } from "../static/board";
+    import { get } from "svelte/store";
 
     let sudokuVar: cell[][];
     sudoku.subscribe(data => sudokuVar = data)
@@ -17,6 +18,10 @@
     let eraseVar: boolean = false,
         hintVar: boolean = false
 
+    function getSaveUrl(){
+        const blob = new Blob([JSON.stringify(sudokuVar)], {type: 'application/json'});
+        return URL.createObjectURL(blob);
+    }
 </script>
 {#key sudokuVar}
 <div id="sidePanel">
@@ -46,6 +51,7 @@
         {/each}
     </div>
     <button id="solve" on:click={solveSudoku}>Solve</button>
+    <a id="download" href={getSaveUrl()} download="sudoku.json">Download to solve later</a >
 </div>
 {/key}
 <style>
