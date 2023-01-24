@@ -80,7 +80,7 @@
     }
 
     table {
-        border: 1px solid gray;
+        border: 2px solid gray;
         border-spacing: 0;
     }
 

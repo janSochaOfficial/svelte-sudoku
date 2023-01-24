@@ -13,7 +13,7 @@ export const hint = writable(false)
 export function setNumber(pos: position, num: number){
     if (!(pos.column >= 0 && pos.row >= 0)) return
 
-    if (get(hint)){
+    if (get(hint))
         sudoku.update((data) => {
             data[pos.row][pos.column].num = null
             if (data[pos.row][pos.column].hints.includes(num))
@@ -22,14 +22,13 @@ export function setNumber(pos: position, num: number){
                 data[pos.row][pos.column].hints.push(num);
             return data
         })
-    }
     else
         sudoku.update((data) => {
             data[pos.row][pos.column].num = num;
             data[pos.row][pos.column].hints = []
+            Movement.next()
             return data
         })
-        Movement.next()
 }
 
 export function solveSudoku(){

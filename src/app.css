@@ -101,3 +101,44 @@ button:focus-visible {
   }
 
 }
+
+@media print {
+  input{
+    display: none;
+  }
+  #sidePanel{
+    display: none;
+  }
+  :root{
+    color: black;
+    background-color: white;
+  }
+  table#board{
+    border: 2px solid black;
+  }
+  table#board > tr > td{
+    border: 1px solid gray;
+  }
+
+
+  table#board > tr > td:nth-of-type(3),
+  table#board > tr > td:nth-of-type(6){
+    border-right-color: black !important;
+  }
+
+  table#board > tr:nth-of-type(3) td,
+  table#board > tr:nth-of-type(6) td{
+    border-bottom-color: black !important;
+  }
+
+  table#board > tr > td:nth-of-type(4),
+  table#board > tr > td:nth-of-type(7){
+    border-left-color: black !important;
+  }
+
+  table#board > tr:nth-of-type(4) td,
+  table#board > tr:nth-of-type(7) td{
+    border-top-color: black !important;
+  }
+
+}
