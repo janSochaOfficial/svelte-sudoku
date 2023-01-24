@@ -40,7 +40,7 @@
 
 </script>
 
-<table>
+<table id="board">
 
     {#key acctivePos, sudokuVar}
         {#each sudokuVar as row, i}
