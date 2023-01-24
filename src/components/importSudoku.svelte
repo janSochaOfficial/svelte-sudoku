@@ -8,11 +8,20 @@
 		const file = files[0]
 
 		const newSudo: cell[][] = await file.text().then(e => JSON.parse(e))
-		if(validateSudoku(newSudo)){
-			sudoku.set(newSudo)
+		try {
+			if(validateSudoku(newSudo)){
+				sudoku.set(newSudo)
+				screen.set("main")
+			}
+			else {
+				alert("Sudoku not valid")
+			}
 		}
+		catch{
+			alert("Wrong data format")
+		}
+		
 
-        screen.set("main")
 	}
 
 </script>
