@@ -100,7 +100,7 @@ export class Movement{
     static bellow(){
         const actPos = get(acctivePosition)
         actPos.row += 1
-        if (actPos.row < 0) {
+        if (actPos.row > 8) {
             actPos.row = 0
         }
         acctivePosition.set(actPos)
