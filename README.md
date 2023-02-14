@@ -4,7 +4,11 @@ Ten projekt jest wykonany na potrzebę lekcji Aplikacji internetowch, wykonany w
 
 ## Uruchamianie projektu
 
-Aby uruchomić projekt należy użyć komendy
+Aby zacząć kożystanie z projektu, w terminal należy wpisać komendę:
+```
+npm install
+```
+Następnie, aby uruchomić serwer należy wpisać komędę
 ```node
 npm run dev
 ```
